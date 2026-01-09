@@ -17638,7 +17638,7 @@ const NE = () => {
                 b.jsx("a", {
                   className: "btn-primary text-sm",
                   children: "BUY",
-                  href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon",
+                  href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xdc48debe711985cdffaf0ca9c91757ac5ff61903",
                 }),
               ],
             }),
@@ -17698,7 +17698,7 @@ const NE = () => {
   },
   IE = () => {
     const [e, t] = x.useState(!1),
-      r = "0xcomingsoon",
+      r = "0xdc48debe711985cdffaf0ca9c91757ac5ff61903",
       n = () => {
         navigator.clipboard.writeText(r), t(!0), setTimeout(() => t(!1), 2e3);
       };
@@ -27478,7 +27478,7 @@ const pC = "https://dfejfnkvypxpkqypjbpk.supabase.co",
               children: b.jsx("div", {
                 className: "aspect-[16/9] w-full",
                 children: b.jsx("iframe", {
-                  src: "https://dexscreener.com/ethereum/0xpair?embed=1&theme=dark",
+                  src: "https://dexscreener.com/ethereum/0x8103548c5691cea4b59410a4893b2294af8bd5a7?embed=1&theme=dark",
                   className: "w-full h-full border-0",
                   title: "DexScreener Chart",
                   allow: "clipboard-write",
