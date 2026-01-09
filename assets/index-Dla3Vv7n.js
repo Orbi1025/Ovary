@@ -27509,7 +27509,7 @@ const pC = "https://dfejfnkvypxpkqypjbpk.supabase.co",
                 children: b.jsx(y_, { className: "w-8 h-8" }),
                 href: "https://x.com/Ovary_coin",
               }),
-              b.jsx("button", {
+              b.jsx("a", {
                 className:
                   "text-foreground hover:text-primary transition-colors",
                 children: b.jsx(av, { className: "w-8 h-8" }),
