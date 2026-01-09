@@ -17635,9 +17635,10 @@ const NE = () => {
                     n.href
                   )
                 ),
-                b.jsx("button", {
+                b.jsx("a", {
                   className: "btn-primary text-sm",
                   children: "BUY",
+                  href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon",
                 }),
               ],
             }),
@@ -17697,7 +17698,7 @@ const NE = () => {
   },
   IE = () => {
     const [e, t] = x.useState(!1),
-      r = "3Ps2gVJpDyEM2NDPgQNWreVUUn45i3HiRFb9rjdXpump",
+      r = "0xcomingsoon",
       n = () => {
         navigator.clipboard.writeText(r), t(!0), setTimeout(() => t(!1), 2e3);
       };
@@ -27400,18 +27401,18 @@ const pC = "https://dfejfnkvypxpkqypjbpk.supabase.co",
     },
     {
       icon: d_,
-      title: "SOL",
-      description: "Load up on SOL. Transfers are instant.",
+      title: "ETH",
+      description: "Load up on ETH. Transfers are instant.",
     },
     {
       icon: g_,
-      title: "PUMP",
-      description: "Paste the CA on Pump.fun search bar.",
+      title: "UNISWAP",
+      description: "Paste the CA on Uniswap search bar.",
     },
     {
       icon: av,
       title: "SWAP",
-      description: "Swap SOL for $OVARY. Feel the power.",
+      description: "Swap ETH for $OVARY. Feel the power.",
     },
   ],
   _C = () =>
@@ -27477,7 +27478,7 @@ const pC = "https://dfejfnkvypxpkqypjbpk.supabase.co",
               children: b.jsx("div", {
                 className: "aspect-[16/9] w-full",
                 children: b.jsx("iframe", {
-                  src: "https://dexscreener.com/solana/ductzpbagbe1fojxegkbtmv9fwfgkyhbhdcbk2q7k1gi?embed=1&theme=dark",
+                  src: "https://dexscreener.com/ethereum/0xpair?embed=1&theme=dark",
                   className: "w-full h-full border-0",
                   title: "DexScreener Chart",
                   allow: "clipboard-write",
@@ -27502,15 +27503,17 @@ const pC = "https://dfejfnkvypxpkqypjbpk.supabase.co",
           b.jsxs("div", {
             className: "flex justify-center gap-6 mb-8",
             children: [
-              b.jsx("button", {
+              b.jsx("a", {
                 className:
                   "text-foreground hover:text-primary transition-colors",
                 children: b.jsx(y_, { className: "w-8 h-8" }),
+                href: "https://x.com/Ovary_coin",
               }),
               b.jsx("button", {
                 className:
                   "text-foreground hover:text-primary transition-colors",
                 children: b.jsx(av, { className: "w-8 h-8" }),
+                href: "https://t.me/Ovary_coin",
               }),
             ],
           }),
